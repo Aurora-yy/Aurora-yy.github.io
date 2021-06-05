@@ -4,11 +4,37 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="2021/06/02/hello/"/>
-      <url>2021/06/02/hello/</url>
+      <title>博客模板</title>
+      <link href="2021/06/05/1/"/>
+      <url>2021/06/05/1/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>感受：玩游戏其实是为了不孤独</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客模板</title>
+      <link href="2021/06/05/graduation/"/>
+      <url>2021/06/05/graduation/</url>
+      
+        <content type="html"><![CDATA[<h2 id="祝自己毕业快乐"><a href="#祝自己毕业快乐" class="headerlink" title="祝自己毕业快乐"></a>祝自己毕业快乐</h2><p>我喜欢大一的时候，懵懵懂懂的认识了很多有趣的人。</p><p>我喜欢大二的时候，晚上熄灯以后还能看见室友在埋头苦干（期末考试前一天）。</p><p>我喜欢大三的时候，学校的每个角落都是一道风景，女生真的多。</p><p>我喜欢大四的时候，每天梦里对人生道路的思考（刷抖音）。</p><p><strong>接下来，我祝自己毕业快乐、前途似锦、父母身体健康、家庭幸福美满、一夜暴富、成为网红、开上法拉利（哈哈，开个玩笑）希望自己能坚持做自己喜欢做的事情，并一直坚持做下去，加油奥利给！！！</strong></p><p>晒一下我毕业图片：</p><p><img src="C:\Users\小小\Desktop\新建文件夹\IMG_0185.JPG" alt="IMG_0185"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo个人博客搭建</title>
+      <link href="2021/06/05/hexo/"/>
+      <url>2021/06/05/hexo/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://www.hualigs.cn/image/60baf668dd39a.jpg"></p><p>本人博客：<a href="https://aurora-yy.github.io/">https://aurora-yy.github.io/</a></p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>第一次写文章，有不足的地方请谅解。很多时候学习过的知识点，总想记录下来，就想自己写一个专属博客，记录生活的点点滴滴，记录成长的过程。就有了我现在介绍的<a href="https://hexo.io/zh-cn/docs/">hexo</a>博客，接下来我从零开始部署<a href="https://hexo.io/zh-cn/docs/">hexo</a>博客。主要内容如下：</p><ol><li><p>安装Git Bash</p></li><li><p>安装NodeJs</p></li><li><p>安装hexo</p></li><li><p>生成SSH并添加到github</p></li><li><p>部署项目</p></li><li><p>上传到github</p></li><li><p>绑定个人域名</p></li><li><p>修改及配置主题</p></li><li><p>添加RSS</p></li><li><p>添加评论</p></li><li><p>写文章部分</p><h2 id="玩起来"><a href="#玩起来" class="headerlink" title="玩起来"></a>玩起来</h2></li></ol><p>自己是个小白，之前看了B站视频，部署<a href="https://hexo.io/zh-cn/docs/">hexo</a>博客，感觉很浪费时间，所以我想把部署的一一步骤记录在博客上，让小白们成功部署自己的博客。</p><p>原文地址：<a href="https://www.cnblogs.com/visugar/p/6821777.html">https://www.cnblogs.com/visugar/p/6821777.html</a></p>]]></content>
       
       
       
