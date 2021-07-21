@@ -51,6 +51,81 @@
     
     
     <entry>
+      <title>OWASP靶机下载安装详细过程</title>
+      <link href="2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/"/>
+      <url>2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<h2 id="OWASP靶机下载安装详细过程"><a href="#OWASP靶机下载安装详细过程" class="headerlink" title="OWASP靶机下载安装详细过程"></a>OWASP靶机下载安装详细过程</h2><h3 id="一、-OWASP靶机下载"><a href="#一、-OWASP靶机下载" class="headerlink" title="一、 OWASP靶机下载"></a>一、 OWASP靶机下载</h3><p>下载地址：<a href="https://sourceforge.net/projects/owaspbwa/files/">https://sourceforge.net/projects/owaspbwa/files/</a>.<br> 一般可直接点击“Download Latest Version”下载最新版本的OWASP靶机</p><p><img src="/2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/1.png" alt="OWASP靶机下载安装详细过程"></p><h3 id="二、-OWASP安装"><a href="#二、-OWASP安装" class="headerlink" title="二、 OWASP安装"></a>二、 OWASP安装</h3><p>保证磁盘容量有10G左右或以上，解压下载的OWASP压缩包</p><p><img src="/2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/2.png" alt="OWASP靶机下载安装详细过程"></p><p>打开VM虚拟机，点击“文件-打开” </p><p><img src="/2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/3.png" alt="OWASP靶机下载安装详细过程"></p><p>找到解压后的OWASP文件夹，打开</p><p><img src="/2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/4.png" alt="OWASP靶机下载安装详细过程"></p><p>点击绿框开启虚拟机，红框为OWASP的开机密码 root/owaspbwa；<br> 考虑到安全问题，虚拟机网络适配器应设置为NAT或者仅主机模式。</p><p><img src="/2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/5.png" alt="OWASP靶机下载安装详细过程"></p><h3 id="三、-OWASP启动运行"><a href="#三、-OWASP启动运行" class="headerlink" title="三、 OWASP启动运行"></a>三、 OWASP启动运行</h3><p>首次启动OWASP，若提示一下图，选“我已复制该虚拟机”。</p><p><img src="/2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/6.png" alt="OWASP靶机下载安装详细过程"></p><p>首次启动OWASP需要较长时间，请耐心等待。</p><p><img src="/2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/7.png" alt="OWASP靶机下载安装详细过程"></p><p>输入账号密码，即可登录进OWASP靶机，界面会显示OWASP靶机的ip地址，或者通过ifconfig查看IP地址，然后在浏览器通过访问<a href="http://ip即可./">http://IP即可。</a></p><p><img src="/2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/8.png" alt="OWASP靶机下载安装详细过程"></p><p><img src="/2021/07/04/OWASP%E9%9D%B6%E6%9C%BA%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E8%BF%87%E7%A8%8B/9.png" alt="OWASP靶机下载安装详细过程"></p><p>原文：<a href="https://blog.csdn.net/xxx_Python/article/details/106289919">https://blog.csdn.net/xxx_Python/article/details/106289919</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> web 渗透 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文件上传漏洞1</title>
+      <link href="2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/"/>
+      <url>2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/</url>
+      
+        <content type="html"><![CDATA[<h2 id="文件上传漏洞1原理"><a href="#文件上传漏洞1原理" class="headerlink" title="文件上传漏洞1原理"></a>文件上传漏洞1原理</h2><p>实验环境：<br>目标靶机：OWASP_Broken_Web_Apps_VM_1.2 </p><p><a href="https://sourceforge.net/projects/owaspbwa/files/1.2/OWASP_Broken_Web_Apps_VM_1.2.zip/download">https://sourceforge.net/projects/owaspbwa/files/1.2/OWASP_Broken_Web_Apps_VM_1.2.zip/download</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">OWASP Broken Web Applications Project Broken Web Applications（BWA）项目生成一个虚拟机，运行各种具有已知漏洞的应用程序，供以下人员使用：</span><br><span class="line">- 了解Web应用程序安全性</span><br><span class="line">- 测试手册评估技术</span><br><span class="line">- 测试自动化工具</span><br><span class="line">- 测试源代码分析工具</span><br><span class="line">- 观察网络攻击</span><br><span class="line">- 测试WAF和类似的代码技术</span><br></pre></td></tr></table></figure><p>测试渗透机：Kali-Linux-2018.2-vm-amd64 </p><p><a href="https://images.offensive-security.com/virtual-images/kali-linux-2018.2-vm-amd64.zip">https://images.oﬀensive-security.com/virtual-images/kali-linux-2018.2-vm-amd64.zip</a></p><p>实验原理：</p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/1.png" alt="文件上传漏洞"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1、文件上传（File Upload）是大部分Web应用都具备的功能，例如用户上传附件、修改头像、分享图片/视频等 </span><br><span class="line">2、正常的文件一般是文档、图片、视频等，Web应用收集之后放入后台存储，需要的时候再调用出来返回 3、如果恶意文件如PHP、ASP等执行文件绕过Web应用，并顺利执行，则相当于黑客直接拿到了Webshell 4、一旦黑客拿到Webshell，则可以拿到Web应用的数据，删除Web文件，本地提权，进一步拿下整个服务器甚至内网 </span><br><span class="line">5、SQL注入攻击的对象是数据库服务，文件上传漏洞主要攻击Web服务，实际渗透两种相结合，达到对目标的深度控制</span><br></pre></td></tr></table></figure><p>实验过程：<br>实验一：<br>低安全模式下，上传任意类型的文件，文件大小限制</p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/2.png" alt="文件上传漏洞"></p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/3.png" alt="文件上传漏洞"></p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/4.png" alt="文件上传漏洞"></p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/5.png" alt="文件上传漏洞"></p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/6.png" alt="文件上传漏洞"></p><p>发现源码里面，没有对PHP脚本进行过滤，所以我们可以上传带有病毒的PHP脚本。（称为:一句话木马）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php @eval($_POST[&#x27;1&#x27;]);?&gt;</span><br></pre></td></tr></table></figure><p>把这段代码写到记事本上，再另存为php文件</p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/7.png" alt="文件上传漏洞"></p><p>然后把php脚本上传到dvwa服务器上</p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/8.png" alt="文件上传漏洞"></p><p>最后，我们先把杀毒软件关掉，再使用中国菜刀进行连接</p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/9.png" alt="文件上传漏洞"></p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/10.png" alt="文件上传漏洞"></p><p><img src="/2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E/11.png" alt="文件上传漏洞"></p><p>成功连接上服务器，可对里面的文件进行增、删操作，这个是很可怕的事情。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web 攻防 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> web 渗透 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文件上传漏洞</title>
+      <link href="2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E1/"/>
+      <url>2021/07/04/%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E1/</url>
+      
+        <content type="html"><![CDATA[<h2 id="文件上传漏洞原理"><a href="#文件上传漏洞原理" class="headerlink" title="文件上传漏洞原理"></a>文件上传漏洞原理</h2><p>实验环境：<br>目标靶机：OWASP_Broken_Web_Apps_VM_1.2 </p><p><a href="https://sourceforge.net/projects/owaspbwa/files/1.2/OWASP_Broken_Web_Apps_VM_1.2.zip/download">https://sourceforge.net/projects/owaspbwa/files/1.2/OWASP_Broken_Web_Apps_VM_1.2.zip/download</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">OWASP Broken Web Applications Project Broken Web Applications（BWA）项目生成一个虚拟机，运行各种具有已知漏洞的应用程序，供以下人员使用：</span><br><span class="line">- 了解Web应用程序安全性</span><br><span class="line">- 测试手册评估技术</span><br><span class="line">- 测试自动化工具</span><br><span class="line">- 测试源代码分析工具</span><br><span class="line">- 观察网络攻击</span><br><span class="line">- 测试WAF和类似的代码技术</span><br></pre></td></tr></table></figure><p>测试渗透机：Kali-Linux-2018.2-vm-amd64 </p><p><a href="https://images.offensive-security.com/virtual-images/kali-linux-2018.2-vm-amd64.zip">https://images.oﬀensive-security.com/virtual-images/kali-linux-2018.2-vm-amd64.zip</a></p><p>实验原理：</p><p><img src="/1.png" alt="文件上传漏洞"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1、文件上传（File Upload）是大部分Web应用都具备的功能，例如用户上传附件、修改头像、分享图片/视频等 </span><br><span class="line">2、正常的文件一般是文档、图片、视频等，Web应用收集之后放入后台存储，需要的时候再调用出来返回 3、如果恶意文件如PHP、ASP等执行文件绕过Web应用，并顺利执行，则相当于黑客直接拿到了Webshell 4、一旦黑客拿到Webshell，则可以拿到Web应用的数据，删除Web文件，本地提权，进一步拿下整个服务器甚至内网 </span><br><span class="line">5、SQL注入攻击的对象是数据库服务，文件上传漏洞主要攻击Web服务，实际渗透两种相结合，达到对目标的深度控制</span><br></pre></td></tr></table></figure><p>实验过程：<br>实验一：<br>低安全模式下，上传任意类型的文件，文件大小限制</p><p><img src="/2.png" alt="文件上传漏洞"></p><p><img src="/3.png" alt="文件上传漏洞"></p><p><img src="/4.png" alt="文件上传漏洞"></p><p><img src="/5.png" alt="文件上传漏洞"></p><p><img src="/6.png" alt="文件上传漏洞"></p><p>发现源码里面，没有对PHP脚本进行过滤，所以我们可以上传带有病毒的PHP脚本。（称为:一句话木马）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;?php @eval($_POST[&#x27;1&#x27;]);?&gt;</span><br></pre></td></tr></table></figure><p>把这段代码写到记事本上，再另存为php文件</p><p><img src="/7.png" alt="文件上传漏洞"></p><p>然后把php脚本上传到dvwa服务器上</p><p><img src="/8.png" alt="文件上传漏洞"></p><p>最后，我们先把杀毒软件关掉，再使用中国菜刀进行连接</p><p><img src="/9.png" alt="文件上传漏洞"></p><p><img src="/10.png" alt="文件上传漏洞"></p><p><img src="/11.png" alt="文件上传漏洞"></p><p>成功连接上服务器，可对里面的文件进行增、删操作，这个是很可怕的事情。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web 攻防 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> web 渗透 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo个人博客搭建</title>
       <link href="2021/06/05/hexo/"/>
       <url>2021/06/05/hexo/</url>
